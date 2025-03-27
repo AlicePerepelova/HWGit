@@ -13,7 +13,7 @@ public class SearchTests {
         $("[name=q]").setValue("selenide").pressEnter();
         $("[id=search]").shouldHave(text("https://ru.selenide.org"));
 
-System.out.println("1111");
+System.out.println("11112");
 
     }
 }
